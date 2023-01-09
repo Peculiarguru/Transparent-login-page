@@ -3,7 +3,7 @@
 }
 
 body {
-  background: rgba(0, 0, 0, 0.3)
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./img/vecteezy_foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist_5572340_85.jpg);
   background-blend-mode: darken;
   background-size: cover;
