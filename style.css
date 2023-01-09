@@ -33,15 +33,27 @@ input {
   margin-top: 10px;
   background-color: transparent;
   font-size: 1rem;
+  display: inline-block;
 }
 ::placeholder,
 input {
   color: white;
-  padding: 10px;
-  padding-left: 0;
-  font-family: "Helvetica", FontAwesome, sans-serif;
+  padding: 10px 40px;
+  padding-left: 8px;
   border-bottom: 2px solid green;
 }
+.fonticon {
+  position: relative;
+}
+
+.fonticon i {
+  position: absolute;
+  top: 20px;
+  color: white;
+  font-family: "Helvetica", FontAwesome, sans-serif;
+  margin-right: 50px;
+}
+
 input[type="submit"] {
   border: 2px solid green;
   width: 15rem;
